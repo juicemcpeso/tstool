@@ -6,6 +6,8 @@ Created on Sun Mar 18 13:16:36 2018
 @author: ryantmcnally
 """
 
+## Uploaded to github
+
 import pandas as pd
 
 ## Import the card list as a pandas data frame
@@ -109,6 +111,13 @@ def showEnemyHand():
 ## Basic stats
 def drawStats():
     
+    ## creates a DataFrame of just the cards in the draw pile for ease of use
     tempDraw = cards.loc[cards.location == 'DRAW']
-    tempDraw.plot.hist(bins=5)
-       
+    
+    ## Plots how many cards of each op value remain. I would like it to be 
+    ## lowest to highest still (rather than most to least frequent) and have
+    ## have the option for a stacked chart (show the type for each)
+    tempDraw['ops'].value_counts().plot.bar(subplots=True)
+    
+    ## Plots number of cards by each type of card
+    tempDraw['type'].value_counts().plot.bar(subplots=True)
