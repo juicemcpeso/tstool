@@ -6,25 +6,51 @@ Created on Sun Mar 18 13:16:36 2018
 @author: ryantmcnally
 """
 
-## Uploaded to github
+## TStool 1.1
+## 2018-03-19
+## - added a save/load feature
+## - changed the add cards functions to ask for optional cards once at the
+##   beginning of the game
 
 import pandas as pd
 
-## Import the card list as a pandas data frame
+## Intro text
+print('TSTool 1.1')
+
+## Take input from user if they want to start a new game or load a game
+
+setup_response = input('New game or load game: ')
+setup_response = setup_response.lower()
+
+## Logic for starting new or loading a saved table and setting up the 
+## 'cards' DataFrame
+if setup_response == 'new':
+    ## Import the card list as a pandas data frame
+
+    cards = pd.read_csv('tstool_cards.csv')
+        
+elif setup_response == 'load':
+    filename = str(input('Enter the filename of your saved game: '))
+    cards = pd.read_csv(filename)
+  
 ## Shifts the index to align with the card number
 ## Replaces NaN with a whitespace
-cards = pd.read_csv('tstool_cards.csv')
 cards.index += 1
 cards = cards.fillna('')
 
-## Intro text
-print('TSTool 1.0')
-print('To start game, run startGame() function')
-print('startGame takes True or False as inputs for the optional cards \n')
+## Ask if the optional cards are in play, set to true/false bool values. If the
+## user enters something other than Y/N, the optional cards are set to off.
+## Should probably be a function
+optional_input = str.upper(input('Optional cards (Y/N): '))
+if optional_input == 'Y':
+    optional_bool = True
+elif optional_input == 'N':
+    optional_bool = False
+else:
+    optional_bool = False
 
-
-## Function to start the game. Takes "True or False"
-def startGame(optional_bool):
+## Function to add early war cards
+def addEarly():
     if optional_bool:
         cards.loc[cards.time == 'EARLY', 'location'] = 'DRAW'
     else:
@@ -32,7 +58,7 @@ def startGame(optional_bool):
         cards.loc[cards.optional == True, 'location'] = 'BOX'
 
 ## Function to add mid war cards
-def addMid(optional_bool):
+def addMid():
     if optional_bool:
         cards.loc[cards.time == 'MID', 'location'] = 'DRAW'
     else:
@@ -40,7 +66,7 @@ def addMid(optional_bool):
         cards.loc[cards.optional == True, 'location'] = 'BOX'
 
 ## Function to add late war cards
-def addLate(optional_bool):
+def addLate():
     if optional_bool:
         cards.loc[cards.time == 'LATE', 'location'] = 'DRAW'
     else:
@@ -121,3 +147,16 @@ def drawStats():
     
     ## Plots number of cards by each type of card
     tempDraw['type'].value_counts().plot.bar(subplots=True)
+
+## Save game function (write to a csv)
+def saveGame():
+    save_filename = str(input('Enter your filename (.csv): '))
+    cards.to_csv(save_filename, index=False)
+
+## ------------------------------------------------------------------------- ##
+    
+## Start a new game. Should probably be a main, but I ran into issues with 
+## setting global variables
+if setup_response == 'new':
+    addEarly()
+        
