@@ -1,0 +1,111 @@
+title,ops,type,time,removed,optional,location
+Asia Scoring,0,S,EARLY,,,BOX
+Europe Scoring,0,S,EARLY,,,BOX
+Middle East Scoring,0,S,EARLY,,,BOX
+Duck and Cover,3,A,EARLY,,,BOX
+Five Year Plan,3,A,EARLY,,,BOX
+The China Card,4,C,EARLY,,,BOX
+Socialist Governments,3,R,EARLY,,,BOX
+Fidel*,2,R,EARLY,TRUE,,BOX
+Vietnam Revolts*,2,R,EARLY,TRUE,,BOX
+Blockade*,1,R,EARLY,TRUE,,BOX
+Korean War*,2,R,EARLY,TRUE,,BOX
+Romanian Abdication*,1,R,EARLY,TRUE,,BOX
+Arab-Israeli War,2,R,EARLY,,,BOX
+Comecon*,3,R,EARLY,TRUE,,BOX
+Nasser*,1,R,EARLY,TRUE,,BOX
+Warsaw Pact Formed*,3,R,EARLY,TRUE,,BOX
+De Gaulle Leads France*,3,R,EARLY,TRUE,,BOX
+Captured Nazi Scientist*,1,N,EARLY,TRUE,,BOX
+Truman Doctrine*,1,A,EARLY,TRUE,,BOX
+Olympic Games,2,N,EARLY,,,BOX
+NATO*,4,A,EARLY,TRUE,,BOX
+Independent Reds*,2,A,EARLY,TRUE,,BOX
+Marshall Plan*,4,A,EARLY,TRUE,,BOX
+Indo-Pakistani War,2,N,EARLY,,,BOX
+Containment*,3,A,EARLY,TRUE,,BOX
+CIA Created*,1,A,EARLY,TRUE,,BOX
+US/Japan Mutual Defense Pact*,4,A,EARLY,TRUE,,BOX
+Suez Crisis*,3,R,EARLY,TRUE,,BOX
+East European Unrest,3,A,EARLY,,,BOX
+Decolonization,2,R,EARLY,,,BOX
+Red Scare/Purge,4,N,EARLY,,,BOX
+UN Intervention,1,N,EARLY,,,BOX
+De-Stalinization*,3,R,EARLY,TRUE,,BOX
+Nuclear Test Ban,4,N,EARLY,,,BOX
+Formosan Resolution*,2,A,EARLY,TRUE,,BOX
+Brush War,3,N,MID,,,BOX
+Central America Scoring,0,S,MID,,,BOX
+Southeast Asia Scoring*,0,S,MID,TRUE,,BOX
+Arms Race,3,N,MID,,,BOX
+Cuban Missile Crisis*,3,N,MID,TRUE,,BOX
+Nuclear Subs*,2,A,MID,TRUE,,BOX
+Quagmire*,3,R,MID,TRUE,,BOX
+SALT Negotiations*,3,N,MID,TRUE,,BOX
+Bear Trap*,3,A,MID,TRUE,,BOX
+Summit,1,N,MID,,,BOX
+How I Learned to Stop Worrying*,2,N,MID,TRUE,,BOX
+Junta,2,N,MID,,,BOX
+Kitchen Debates*,1,A,MID,TRUE,,BOX
+Missile Envy,2,N,MID,,,BOX
+“We Will Bury You”*,4,R,MID,TRUE,,BOX
+Brezhnev Doctrine*,3,R,MID,TRUE,,BOX
+Portuguese Empire Crumbles*,2,R,MID,TRUE,,BOX
+South African Unrest,2,R,MID,,,BOX
+Allende*,1,R,MID,TRUE,,BOX
+Willy Brandt*,2,R,MID,TRUE,,BOX
+Muslim Revolution,4,R,MID,,,BOX
+ABM Treaty,4,N,MID,,,BOX
+Cultural Revolution*,3,R,MID,TRUE,,BOX
+Flower Power*,4,R,MID,TRUE,,BOX
+U2 Incident*,3,R,MID,TRUE,,BOX
+OPEC,3,R,MID,,,BOX
+“Lone Gunman”*,1,R,MID,TRUE,,BOX
+Colonial Rear Guards,2,A,MID,,,BOX
+Panama Canal Returned*,1,A,MID,TRUE,,BOX
+Camp David Accords*,2,A,MID,TRUE,,BOX
+Puppet Governments*,2,A,MID,TRUE,,BOX
+Grain Sales to Soviets,2,A,MID,,,BOX
+John Paul II Elected Pope*,2,A,MID,TRUE,,BOX
+Latin American Death Squads,2,N,MID,,,BOX
+OAS Founded*,1,A,MID,TRUE,,BOX
+Nixon Plays the China Card*,2,A,MID,TRUE,,BOX
+Sadat Expels Soviets*,1,A,MID,TRUE,,BOX
+Shuttle Diplomacy,3,A,MID,,,BOX
+The Voice of America,2,A,MID,,,BOX
+Liberation Theology,2,R,MID,,,BOX
+Ussuri River Skirmish*,3,A,MID,TRUE,,BOX
+“Ask Not What Your Country…”*,3,A,MID,TRUE,,BOX
+Alliance for Progress*,3,A,MID,TRUE,,BOX
+Africa Scoring,0,S,MID,,,BOX
+“One Small Step…”,2,N,MID,,,BOX
+South America Scoring,0,S,MID,,,BOX
+Iranian Hostage Crisis*,3,R,LATE,TRUE,,BOX
+The Iron Lady*,3,A,LATE,TRUE,,BOX
+Reagan Bombs Libya*,2,A,LATE,TRUE,,BOX
+Star Wars*,2,A,LATE,TRUE,,BOX
+North Sea Oil*,3,A,LATE,TRUE,,BOX
+The Reformer*,3,R,LATE,TRUE,,BOX
+Marine Barracks Bombing*,2,R,LATE,TRUE,,BOX
+Soviets Shoot Down KAL-007*,4,A,LATE,TRUE,,BOX
+Glasnost*,4,R,LATE,TRUE,,BOX
+Ortega Elected in Nicaragua*,2,R,LATE,TRUE,,BOX
+Terrorism,2,N,LATE,,,BOX
+Iran-Contra Scandal*,2,R,LATE,TRUE,,BOX
+Chernobyl*,3,A,LATE,TRUE,,BOX
+Latin American Debt Crisis,2,R,LATE,,,BOX
+Tear Down this Wall*,3,A,LATE,TRUE,,BOX
+“An Evil Empire”*,3,A,LATE,TRUE,,BOX
+Aldrich Ames Remix*,3,R,LATE,TRUE,,BOX
+Pershing II Deployed*,3,R,LATE,TRUE,,BOX
+Wargames*,4,N,LATE,TRUE,,BOX
+Solidarity*,2,A,LATE,TRUE,,BOX
+Iran-Iraq War*,2,N,LATE,TRUE,,BOX
+Defectors,2,A,EARLY,,,BOX
+The Cambridge Five,2,R,EARLY,,TRUE,BOX
+Special Relationship,2,A,EARLY,,TRUE,BOX
+NORAD*,3,A,EARLY,TRUE,TRUE,BOX
+Che,3,R,MID,,TRUE,BOX
+Our Man in Tehran*,2,A,MID,TRUE,TRUE,BOX
+Yuri and Samantha*,2,R,LATE,TRUE,TRUE,BOX
+AWACS Sale to Saudis*,3,A,LATE,TRUE,TRUE,BOX
