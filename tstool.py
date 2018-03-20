@@ -134,19 +134,34 @@ def showMyHand():
 def showEnemyHand():
     print(cards.loc[cards.location == 'ENEMY_HAND'])
 
-## Basic stats
-def drawStats():
+## Basic stats on the draw pile
+def stats():
+    
+    ## Change in the future to allow you to run stats on any location based off
+    ## input, but I don't know how to set a default input for a function
+    stats_input = 'DRAW'
     
     ## creates a DataFrame of just the cards in the draw pile for ease of use
-    tempDraw = cards.loc[cards.location == 'DRAW']
+    statsFrame = cards.loc[cards.location == stats_input]
     
+    ## Shows how many cards are in the draw pile by total ops
+    print('Cards by ops: ')
+    print(statsFrame['ops'].value_counts(sort=False))
     ## Plots how many cards of each op value remain. I would like it to be 
     ## lowest to highest still (rather than most to least frequent) and have
     ## have the option for a stacked chart (show the type for each)
-    tempDraw['ops'].value_counts().plot.bar(subplots=True)
+    ##tempDraw['ops'].value_counts().plot.bar()
+    
+    ## Shows how many cards are in the draw pile by type
+    print('\nCards by type:')
+    print(statsFrame['type'].value_counts(sort=False))
     
     ## Plots number of cards by each type of card
-    tempDraw['type'].value_counts().plot.bar(subplots=True)
+    ##tempDraw['type'].value_counts().plot.bar()
+    
+    ## Table of cards of each op value, sorted by type
+    print('\nCards by ops, sorted by type:')
+    print(statsFrame.groupby('type')['ops'].value_counts(sort=False))
 
 ## Save game function (write to a csv)
 def saveGame():
