@@ -1,0 +1,85 @@
+Country,Region,Subregion,Stability,Battleground
+Mexico,Central America,,2,TRUE
+Guatemala,Central America,,1,FALSE
+El Salvador,Central America,,1,FALSE
+Honduras,Central America,,2,FALSE
+Costa Rica,Central America,,3,FALSE
+Nicaragua,Central America,,1,FALSE
+Cuba,Central America,,3,TRUE
+Haiti,Central America,,1,FALSE
+Dominican Rep,Central America,,1,FALSE
+Panama,Central America,,2,TRUE
+Colombia,South America,,1,FALSE
+Venezuela,South America,,2,TRUE
+Brazil,South America,,2,TRUE
+Uruguay,South America,,2,FALSE
+Argentina,South America,,2,TRUE
+Chile,South America,,3,TRUE
+Paraguay,South America,,2,FALSE
+Bolivia,South America,,2,FALSE
+Peru,South America,,2,FALSE
+Ecuador,South America,,2,FALSE
+Canada,Europe,Western Europe,4,FALSE
+UK,Europe,Western Europe,5,FALSE
+France,Europe,Western Europe,3,TRUE
+Spain/Portugal,Europe,Western Europe,2,FALSE
+Benelux,Europe,Western Europe,3,FALSE
+Norway,Europe,Western Europe,4,FALSE
+Denmark,Europe,Western Europe,3,FALSE
+W. Germany,Europe,Western Europe,4,TRUE
+Italy,Europe,Western Europe,2,TRUE
+Greece,Europe,Western Europe,2,FALSE
+Turkey,Europe,Western Europe,2,FALSE
+Sweden,Europe,Western Europe,4,FALSE
+Finland,Europe,Both Europe,4,FALSE
+Austria,Europe,Both Europe,4,FALSE
+E. Germany,Europe,Eastern Europe,3,TRUE
+Poland,Europe,Eastern Europe,3,TRUE
+Czechoslovakia,Europe,Eastern Europe,3,FALSE
+Hungary,Europe,Eastern Europe,3,FALSE
+Yugoslavia,Europe,Eastern Europe,3,FALSE
+Bulgaria,Europe,Eastern Europe,3,FALSE
+Romania,Europe,Eastern Europe,3,FALSE
+Libya,Middle East,,2,TRUE
+Egypt,Middle East,,2,TRUE
+Israel,Middle East,,4,TRUE
+Lebanon,Middle East,,1,FALSE
+Syria,Middle East,,2,FALSE
+Iraq,Middle East,,3,TRUE
+Jordan,Middle East,,2,FALSE
+Saudi Arabia,Middle East,,3,TRUE
+Gulf States,Middle East,,3,FALSE
+Iran,Middle East,,2,TRUE
+West African States,Africa,,2,FALSE
+Morocco,Africa,,3,FALSE
+Algeria,Africa,,2,TRUE
+Tunisia,Africa,,2,FALSE
+Saharan States,Africa,,1,FALSE
+Ivory Coast,Africa,,2,FALSE
+Nigeria,Africa,,1,TRUE
+Cameroon,Africa,,1,FALSE
+Zaire,Africa,,1,TRUE
+Angola,Africa,,1,TRUE
+South Africa,Africa,,3,TRUE
+Botswana,Africa,,2,FALSE
+Zimbabwe,Africa,,1,FALSE
+SE African States,Africa,,1,FALSE
+Kenya,Africa,,2,FALSE
+Somalia,Africa,,2,FALSE
+Ethiopia,Africa,,1,FALSE
+Sudan,Africa,,1,FALSE
+Afghanistan,Asia,,2,FALSE
+Pakistan,Asia,,2,TRUE
+India,Asia,,3,TRUE
+Burma,Asia,Southeast Asia,2,FALSE
+Laos/Cambodia,Asia,Southeast Asia,1,FALSE
+Thailand,Asia,Southeast Asia,2,TRUE
+Vietnam,Asia,Southeast Asia,1,FALSE
+Malaysia,Asia,Southeast Asia,2,FALSE
+Australia,Asia,,4,FALSE
+Indonesia,Asia,Southeast Asia,1,FALSE
+Philippines,Asia,Southeast Asia,2,FALSE
+Japan,Asia,,4,TRUE
+Taiwan,Asia,,3,FALSE
+S. Korea,Asia,,3,TRUE
+N. Korea,Asia,,3,TRUE
